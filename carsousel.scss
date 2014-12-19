@@ -1,0 +1,128 @@
+.colorLoad {
+	position: absolute;
+	z-index: 1;
+	padding-left: 484px;
+	padding-top: 125px;
+}
+.cBox {
+    position: relative;
+}
+.cBoxShell {
+    padding-left: 40px;
+    display: none;
+}
+.cBoxOut {
+    overflow: hidden;
+    @include transition(400ms all linear);   
+    position: relative;
+    width: 880px;
+}
+.cBoxBtnLft {
+    height: 89px;
+    width: 60px;
+    background-image: url("../images/a19b.png");
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    z-index: 2;
+    cursor: pointer;
+    background-position: 0px 0px;
+    @include transition(none);    
+}
+.cBoxBtnLft:hover {
+    background-position: 280px 0px;
+}
+.BoxBtnLft:active {
+    background-position: 160px 0px;
+}
+.cBoxBtnRgt {
+    height: 89px;
+    width: 60px;
+    background-image: url("../images/a19b.png");
+    position: absolute;
+    right: 0px;
+    top: 160px;
+    z-index: 2;
+    cursor: pointer;
+    background-position: -60px 0px;
+    @include transition(none);   
+}
+.cBoxBtnRgt:hover {
+    background-position: 220px 0px;
+}
+.cBoxBtnRgt:active {
+    background-position: 100px;
+}
+.carouselBox {
+    @include transition(all 400ms linear);    
+    height: 630px;
+}
+.cbsml {
+    max-width: 110px;
+}
+.cBlrg {
+    max-width: 360px;
+    width: 360px;
+}
+.cBsmlWidth {
+    max-width: 110px;
+    width: 100%;
+    padding-top: 155px;
+}
+.cBmedWidth {
+    max-width: 200px;
+    padding-top: 40px;
+}
+.cBlrgWidth {
+    max-width: 360px;
+    width: 360px;
+}
+.shadAdd {
+    height: 139px;
+    background: rgba(0,0,0,0.44);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.shadAddMid {
+    height: 254px;
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.overlayBig {
+    width: 100%;
+}
+.addShad {
+    display: inline-block;
+    width: 100%;
+}
+.displayThumb {
+    @include transition (all 400ms linear);    
+    position: relative;
+    border: 1px solid #b3b3b3;
+    margin-bottom: 0px;
+}
+.newThumbsBox {
+    @include transition (all 400ms linear);    
+    position: relative;
+    margin: 0 20px 0 0;
+}
+.titleOverlaySmall {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 1px;
+    padding: 8px 0px;
+    bottom: 0px;
+}
+.crsZoom {
+    height: 466px;
+    width: 360px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
+    background-size: 760px;
+}
